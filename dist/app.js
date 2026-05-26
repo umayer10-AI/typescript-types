@@ -28,9 +28,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     b = "Umayer"
 // }
 // console.log(b)
-// let a: undefined | string = undefined
-// // a = "Umayer"
-// let b = null
-// console.log(typeof a)
-// console.log(a===b)
-//# sourceMappingURL=app.js.map
+let a = undefined;
+// a = "Umayer"
+let b = null;
+console.log(typeof a);
+console.log(a === b);
