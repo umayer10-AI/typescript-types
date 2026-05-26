@@ -48,6 +48,11 @@
 // console.log(obj[id])
 const getInfo = () => {
     const nameInput = document.querySelector('#username');
-    console.log(nameInput.value);
+    const name = nameInput.value;
+    const emailInput = document.querySelector('#email');
+    const email = emailInput.value;
+    const ageInput = document.querySelector('#age');
+    const age = ageInput.value;
+    console.log(name, email, age);
 };
 //# sourceMappingURL=app.js.map
