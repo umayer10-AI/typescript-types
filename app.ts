@@ -48,9 +48,11 @@
 // console.log(sym3)
 // console.log(sym4)
 
-const id = Symbol('id')
-const obj = {
-    [id]: 100,
-    name: "Umayer Ahmad"
-}
-console.log(obj[id])
+// const id = Symbol('id')
+// const obj = {
+//     [id]: 100,
+//     name: "Umayer Ahmad"
+// }
+// console.log(obj[id])
+
+console.group("Hello")

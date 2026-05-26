@@ -4,7 +4,7 @@
 // let cc:string = "50"
 // let c: number = +cc
 // console.log(a+b+c)
-Object.defineProperty(exports, "__esModule", { value: true });
+// Object.defineProperty(exports, "__esModule", { value: true });
 // let data: number | string = 30
 // data = 40
 // data = "hello"
@@ -40,9 +40,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(sym3===sym4)
 // console.log(sym3)
 // console.log(sym4)
-const id = Symbol('id');
-const obj = {
-    [id]: 100,
-    name: "Umayer Ahmad"
-};
-console.log(obj[id]);
+// const id = Symbol('id')
+// const obj = {
+//     [id]: 100,
+//     name: "Umayer Ahmad"
+// }
+// console.log(obj[id])
+console.group("Hello");
