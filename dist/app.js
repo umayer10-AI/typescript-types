@@ -46,4 +46,8 @@
 //     name: "Umayer Ahmad"
 // }
 // console.log(obj[id])
-console.group("Hello");
+const getInfo = () => {
+    const nameInput = document.querySelector('#username');
+    console.log(nameInput.value);
+};
+//# sourceMappingURL=app.js.map
