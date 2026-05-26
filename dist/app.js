@@ -42,7 +42,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(sym4)
 const id = Symbol('id');
 const obj = {
-    id: 100,
+    [id]: 100,
     name: "Umayer Ahmad"
 };
-console.log(obj.id);
+console.log(obj[id]);
