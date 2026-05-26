@@ -62,5 +62,6 @@ let b = [1, 2, 3, 4, 5];
 let c = ["a", "b", "c", "y"];
 let d = [1, 2, 3, 4, 5];
 d.push(6);
+const e = ["a", "b", "c", "y"];
 console.log(d);
 //# sourceMappingURL=app.js.map

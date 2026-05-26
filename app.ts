@@ -78,4 +78,7 @@ let c: Array<string> = ["a","b","c","y"]
 let d: Array<number> = [1,2,3,4,5]
 
 d.push(6)
+
+const e: ReadonlyArray<string> = ["a","b","c","y"]
+
 console.log(d)
