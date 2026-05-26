@@ -7,3 +7,9 @@
 // let data: number | string = 30
 // data = 40
 // data = "hello"
+
+// 2
+let a = 21
+let b = "Umayer Ahmad"
+let c: string = `My name is ${b} and my age is ${a} year`
+console.log(c)
