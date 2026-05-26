@@ -64,6 +64,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // d.push(6)
 // const e: ReadonlyArray<string> = ["a","b","c","y"]
 // console.log(d)
-const a = [1, "Umayer", true];
+const a = [1, "Umayer", true, 100];
+// a.push("haha")
 console.log(a);
 //# sourceMappingURL=app.js.map

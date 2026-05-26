@@ -84,5 +84,6 @@
 // console.log(d)
 
 
-const a: [number,string,boolean] = [1,"Umayer",true]
+const a: readonly[number,string,boolean,number] = [1,"Umayer",true,100]
+// a.push("haha")
 console.log(a)
