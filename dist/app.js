@@ -57,11 +57,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // }
 // let a: Array<number> = [1,2,3,4,5]
 // console.log(a)
-let a = ["a", "b", "c", "y"];
-let b = [1, 2, 3, 4, 5];
-let c = ["a", "b", "c", "y"];
-let d = [1, 2, 3, 4, 5];
-d.push(6);
-const e = ["a", "b", "c", "y"];
-console.log(d);
+// let a: string[] = ["a","b","c","y"]
+// let b: number[] = [1,2,3,4,5]
+// let c: Array<string> = ["a","b","c","y"]
+// let d: Array<number> = [1,2,3,4,5]
+// d.push(6)
+// const e: ReadonlyArray<string> = ["a","b","c","y"]
+// console.log(d)
+const a = [1, "Umayer", true];
+console.log(a);
 //# sourceMappingURL=app.js.map

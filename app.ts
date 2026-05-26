@@ -72,13 +72,17 @@
 // let a: Array<number> = [1,2,3,4,5]
 // console.log(a)
 
-let a: string[] = ["a","b","c","y"]
-let b: number[] = [1,2,3,4,5]
-let c: Array<string> = ["a","b","c","y"]
-let d: Array<number> = [1,2,3,4,5]
+// let a: string[] = ["a","b","c","y"]
+// let b: number[] = [1,2,3,4,5]
+// let c: Array<string> = ["a","b","c","y"]
+// let d: Array<number> = [1,2,3,4,5]
 
-d.push(6)
+// d.push(6)
 
-const e: ReadonlyArray<string> = ["a","b","c","y"]
+// const e: ReadonlyArray<string> = ["a","b","c","y"]
 
-console.log(d)
+// console.log(d)
+
+
+const a: [number,string,boolean] = [1,"Umayer",true]
+console.log(a)
