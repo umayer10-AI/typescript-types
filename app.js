@@ -18,7 +18,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // let data: string = String(n)
 // let data: string = ""+n
 // console.log(data)
-let b = true;
-let data = b.toString();
-console.log(data);
+// let b = true;
+// let data: string = b.toString()
+// console.log(data)
+let a = null;
+let b = null;
+let login = true;
+if (login) {
+    b = "Umayer";
+}
+console.log(b);
 //# sourceMappingURL=app.js.map

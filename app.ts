@@ -20,6 +20,14 @@
 // let data: string = ""+n
 // console.log(data)
 
-let b = true;
-let data: string = b.toString()
-console.log(data)
+// let b = true;
+// let data: string = b.toString()
+// console.log(data)
+
+let a: null | string = null
+let b: null | string = null
+let login = true
+if(login){
+    b = "Umayer"
+}
+console.log(b)
