@@ -9,8 +9,16 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // data = 40
 // data = "hello"
 // 2
-let a = 21;
-let b = "Umayer Ahmad";
-let c = `My name is ${b} and my age is ${a} year`;
-console.log(c);
+// let a = 21
+// let b = "Umayer Ahmad"
+// let c: string = `My name is ${b} and my age is ${a} year`
+// console.log(c)
+// let n: number = 100;
+// let data: string = n.toString()
+// let data: string = String(n)
+// let data: string = ""+n
+// console.log(data)
+let b = true;
+let data = b.toString();
+console.log(data);
 //# sourceMappingURL=app.js.map
