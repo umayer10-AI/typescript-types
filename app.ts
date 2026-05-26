@@ -32,8 +32,18 @@
 // }
 // console.log(b)
 
-let a: undefined | string = undefined
-// a = "Umayer"
-let b = null
-console.log(typeof a)
-console.log(a===b)
+// let a: undefined | string = undefined
+// // a = "Umayer"
+// let b = null
+// console.log(typeof a)
+// console.log(a===b)
+
+
+let sym1 = Symbol()
+let sym2 = Symbol()
+let sym3 = Symbol("ab")
+let sym4 = Symbol("ab")
+
+console.log(sym3===sym4)
+console.log(sym3)
+console.log(sym4)
