@@ -4,7 +4,7 @@
 // let cc:string = "50"
 // let c: number = +cc
 // console.log(a+b+c)
-// Object.defineProperty(exports, "__esModule", { value: true });
+Object.defineProperty(exports, "__esModule", { value: true });
 // let data: number | string = 30
 // data = 40
 // data = "hello"
@@ -46,13 +46,21 @@
 //     name: "Umayer Ahmad"
 // }
 // console.log(obj[id])
-const getInfo = () => {
-    const nameInput = document.querySelector('#username');
-    const name = nameInput.value;
-    const emailInput = document.querySelector('#email');
-    const email = emailInput.value;
-    const ageInput = document.querySelector('#age');
-    const age = ageInput.value;
-    console.log(name, email, age);
-};
+// const getInfo = () => {
+//     const nameInput = document.querySelector('#username') as HTMLInputElement
+//     const name:string = nameInput.value
+//     const emailInput = document.querySelector('#email') as HTMLInputElement
+//     const email:string = emailInput.value
+//     const ageInput = document.querySelector('#age') as HTMLInputElement
+//     const age:string = ageInput.value
+//     console.log(name,email,age)
+// }
+// let a: Array<number> = [1,2,3,4,5]
+// console.log(a)
+let a = ["a", "b", "c", "y"];
+let b = [1, 2, 3, 4, 5];
+let c = ["a", "b", "c", "y"];
+let d = [1, 2, 3, 4, 5];
+d.push(6);
+console.log(d);
 //# sourceMappingURL=app.js.map

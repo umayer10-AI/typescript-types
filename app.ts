@@ -55,15 +55,27 @@
 // }
 // console.log(obj[id])
 
-const getInfo = () => {
-    const nameInput = document.querySelector('#username') as HTMLInputElement
-    const name:string = nameInput.value
+// const getInfo = () => {
+//     const nameInput = document.querySelector('#username') as HTMLInputElement
+//     const name:string = nameInput.value
 
-    const emailInput = document.querySelector('#email') as HTMLInputElement
-    const email:string = emailInput.value
+//     const emailInput = document.querySelector('#email') as HTMLInputElement
+//     const email:string = emailInput.value
 
-    const ageInput = document.querySelector('#age') as HTMLInputElement
-    const age:string = ageInput.value
+//     const ageInput = document.querySelector('#age') as HTMLInputElement
+//     const age:string = ageInput.value
 
-    console.log(name,email,age)
-}
+//     console.log(name,email,age)
+// }
+
+
+// let a: Array<number> = [1,2,3,4,5]
+// console.log(a)
+
+let a: string[] = ["a","b","c","y"]
+let b: number[] = [1,2,3,4,5]
+let c: Array<string> = ["a","b","c","y"]
+let d: Array<number> = [1,2,3,4,5]
+
+d.push(6)
+console.log(d)
