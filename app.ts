@@ -24,10 +24,16 @@
 // let data: string = b.toString()
 // console.log(data)
 
-let a: null | string = null
-let b: null | string = null
-let login = true
-if(login){
-    b = "Umayer"
-}
-console.log(b)
+// let a: null | string = null
+// let b: null | string = null
+// let login = true
+// if(login){
+//     b = "Umayer"
+// }
+// console.log(b)
+
+// let a: undefined | string = undefined
+// // a = "Umayer"
+// let b = null
+// console.log(typeof a)
+// console.log(a===b)
